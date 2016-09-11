@@ -1,3 +1,6 @@
 # Ignoring some of the folders in PyCharmCE
 .idea
 .cache
+
+# ignoring the compiled python class
+*.pyc

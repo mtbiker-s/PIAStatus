@@ -15,8 +15,9 @@ class PIA:
         self.url = "https://www.privateinternetaccess.com"
         self.piaStatus = "piastatus"
         self.lookFor = "You are protected"
+
     def main(self):
-        pass
+        self.checkStatus()
 
     def checkStatus(self):
 
@@ -55,3 +56,6 @@ class PIA:
             fileLines.append(lines)
 
         return fileLines
+
+if __name__ == '__main__':
+    PIA().main()
