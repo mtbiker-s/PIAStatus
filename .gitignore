@@ -1,0 +1,3 @@
+# Ignoring some of the folders in PyCharmCE
+.idea
+.cache
